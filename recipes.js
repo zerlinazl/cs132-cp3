@@ -3,6 +3,11 @@
  * CS132 CP3: fetch
  * JS for this project. Search for recipes that use a given ingredient. 
  * User can click into any of the listed results to view cuisine type and ingredient details.
+ * 
+ * I also include 2 sections to my site that involve fetch calls to the same API with different parameters/endpoints.
+ * The first one fetches a list of recipes based on the ingredient parameter.
+ * The second call fetches details for the specific recipe that the user selects after they look through the list 
+ * that the first call returns.
  */
 
 (function(){
