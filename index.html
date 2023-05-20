@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+  Author: Zerlina Lai
+  CP3: fetch and APIs. I use the TheMealDB API to create a website that users can 
+  use to search for meals that utilize a particular main ingredient. 
+-->
+<html>
+    <head>
+      <title>What to Cook Today?</title>
+      <link href="recipes.css" rel="stylesheet">
+      <script src="utils.js"></script>
+      <script defer src="recipes.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+	      <h1>What Can I Cook Today?</h1>
+        <p>A tool to help on those days where you have stuff in the fridge but no idea what to make!</p>
+      </header>
+      <main>
+        <div class="searchbox">
+          <input id="search-ing" type="text" name="i" maxlength="30" placeholder="Search by ingredient:">
+          <input id="submit-btn" type="submit" value="Search">
+        </div>
+        <div class="info">
+          <section id="recipes-list">
+            <h2>Recipes</h2>
+            <p id="response">Results will appear here!</p>
+          </section>
+          <article id="recipe-details">
+          </article>
+        </div>
+      </main>
+      <footer>
+        <p>
+          Data from the 
+          <a href="https://www.themealdb.com/api.php" target="_blank">TheMealDB API</a>
+        </p>
+      </footer>
+    </body>
+</html>

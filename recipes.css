@@ -1,0 +1,110 @@
+body {
+    background-color: #FFFFF2;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+header, .info {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    min-height: 200px;
+    background-color: #cfdfa2;
+    flex-direction: column;
+}
+
+footer {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+footer, .searchbox, header {
+    text-align: center;
+}
+
+header p {
+    padding: 0px 10px 0px 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 42pt;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    color: #e25623;
+}
+
+h1, #submit-btn, #search-ing {
+    font-family: "League Spartan", sans-serif;
+}
+
+p {
+    font-size: 12pt;
+}
+
+p, h2, button{
+    font-family: "Libre Baskerville", serif;
+}
+
+p, header p, h2, button {
+    color: #643b0c;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h2, .recipe-list-item {
+    text-transform: capitalize;
+}
+
+button {
+    text-align: left;
+    padding: 10px;
+}
+
+a, a:visited {
+    color: #758c32;
+}
+
+a:hover {
+    color: #e69f24;
+}
+
+.searchbox {
+    margin: 20px;
+}
+
+.info section, .info article {
+    width: 45%;
+}
+
+.recipe-list-item {
+    background: none;
+    border: none;
+}
+
+.recipe-list-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#submit-btn {
+    padding: 2px 6px;
+}
+
+#search-ing {
+    padding: 2px 2px;
+}
+
+#submit-btn, #search-ing {
+    font-size: 14px;
+}
